@@ -15,10 +15,10 @@ conexao.once("open", () => {
 const app = express();
 routes(app);
 
-app.delete("/livros/:id", (req, res) => {
-  const index = buscaLivro(req.params.id);
-  livros.splice(index, 1);
-  res.status(200).send("livro removido com sucesso");
+app.delete("/transferKeys/:id", (req, res) => {
+  const index = buscatransferKey(req.params.id);
+  transferKeys.splice(index, 1);
+  res.status(200).send("transferKey removido com sucesso");
 });
 
 export default app;

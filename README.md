@@ -3,7 +3,7 @@
 ### 1. Clone o repositório
 * Crie ou escolha uma pasta na sua maquina para receber os arquivos do projeto
 * Abra a pasta utilizando um terminal
-* Digite o código: `git clone https://github.com/tiagoRaulino/portuno-next-radix.git` (lembre se de ter o git instalado antes de usar qualquer comando git)
+* Digite o código: `git clone https://github.com/tiagoRaulino/express-mongo-api.git` (lembre se de ter o git instalado antes de usar qualquer comando git)
   
 ### 2. Instale os pacotes necessários
 * Em seguida digite `npm install` no seu terminal para instalar os pacotes necessários (lembre-se de ter o Node.js instalado antes usar qualquer comando npm)
